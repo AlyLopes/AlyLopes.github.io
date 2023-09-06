@@ -1,0 +1,9 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "AlyLopes",
+  "short_name": "AlyLopes",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait"
+}
