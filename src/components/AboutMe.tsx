@@ -17,7 +17,7 @@ function AboutMe({ title, subtitle, content }: AboutMeProps) {
         <Text variant="subHeader">{subtitle}</Text>
       </Box>
       <Box>
-        <Text variant="body">{content}</Text>
+        <Text>{content}</Text>
       </Box>
     </Box>
   );
