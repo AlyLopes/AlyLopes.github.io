@@ -4,7 +4,7 @@ import Text from "./Text";
 type AboutMeProps = {
   title: string;
   subtitle: string;
-  content: string;
+  content: JSX.Element;
 };
 
 function AboutMe({ title, subtitle, content }: AboutMeProps) {
@@ -16,9 +16,7 @@ function AboutMe({ title, subtitle, content }: AboutMeProps) {
       <Box>
         <Text variant="subHeader">{subtitle}</Text>
       </Box>
-      <Box>
-        <Text>{content}</Text>
-      </Box>
+      <Box>{content}</Box>
     </Box>
   );
 }

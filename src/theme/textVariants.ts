@@ -23,8 +23,8 @@ const textVariants: TextVariants = {
   },
   defaults: {
     fontFamily: APP_FONT_NAMES.MooliRegular,
-    fontSize: 16,
-    lineHeight: 16 * 1.5,
+    fontSize: 18,
+    lineHeight: 16 * 1.25,
     color: "white",
   },
 };
