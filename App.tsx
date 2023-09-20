@@ -3,6 +3,7 @@ import { ThemeProvider } from "@shopify/restyle";
 
 import AppStatusContext from "./src/AppStatusContext";
 import Application from "./src/Application";
+import SplashScreenProvider from "./src/SplashScreenProvider";
 import useStartApp from "./src/hooks/useStartApp";
 import { theme } from "./src/theme";
 
@@ -13,7 +14,9 @@ export default function App() {
     <NavigationContainer>
       <ThemeProvider theme={theme}>
         <AppStatusContext.Provider value={contextValue}>
-          <Application />
+          <SplashScreenProvider>
+            <Application />
+          </SplashScreenProvider>
         </AppStatusContext.Provider>
       </ThemeProvider>
     </NavigationContainer>

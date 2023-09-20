@@ -21,8 +21,8 @@ function Home() {
           <Image source={img} style={styles.image} resizeMode="cover" />
         </Box>
         <AboutMe
-          title="Aly Lopes"
-          subtitle="Code Maker | Team Manager"
+          title="ALY LOPES"
+          subtitle="Code Maker | Tech Lead"
           content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim convallis neque, et tristique odio posuere ullamcorper.\nUt gravida purus ut ex ultricies, a facilisis nunc euismod. Vivamus gravida interdum augue vel fermentum.`}
         />
       </Box>
