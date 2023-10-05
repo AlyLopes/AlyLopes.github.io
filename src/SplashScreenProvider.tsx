@@ -16,7 +16,7 @@ function SplashScreenProvider({ children }: SplashScreenProviderProps) {
   const { appStatus } = useContext(AppStatusContext);
   const splashOpacity = useSharedValue(1);
   const [showSplash, setShowSplash] = useState(
-    appStatus === APP_STATUS.LOADING
+    appStatus === APP_STATUS.LOADING,
   );
 
   useEffect(() => {
@@ -30,7 +30,7 @@ function SplashScreenProvider({ children }: SplashScreenProviderProps) {
         { duration: ANIMATION_DURATION },
         () => {
           setShowSplash(false);
-        }
+        },
       );
     }
   }, [appStatus]);

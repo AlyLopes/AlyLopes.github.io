@@ -45,11 +45,17 @@
     "typescript": "^5.1.3"
   },
   "eslintConfig": {
+    "ignorePatterns": [
+      "web-build/*"
+    ],
     "root": true,
     "extends": "universe/native",
     "rules": {
       "@typescript-eslint/consistent-type-imports": "error"
     }
+  },
+  "prettier": {
+    "trailingComma": "all"
   },
   "private": true
 }
