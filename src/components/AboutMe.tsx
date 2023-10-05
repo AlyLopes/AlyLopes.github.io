@@ -9,7 +9,7 @@ type AboutMeProps = {
 
 function AboutMe({ title, subtitle, content }: AboutMeProps) {
   return (
-    <Box flex={1} padding="xxl">
+    <Box flex={1}>
       <Box>
         <Text variant="header">{title}</Text>
       </Box>

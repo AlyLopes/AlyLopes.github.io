@@ -17,3 +17,8 @@ export const APP_FONTS = {
   [APP_FONT_NAMES.MooliRegular]: require("../assets/fonts/Mooli-Regular.ttf"),
   [APP_FONT_NAMES.VidaLokaRegular]: require("../assets/fonts/Vidaloka-Regular.ttf"),
 };
+
+export const SOCIALS_URLS = {
+  LINKEDIN: "https://www.linkedin.com/in/alylopes/",
+  GITHUB: "https://github.com/alylopes",
+};
